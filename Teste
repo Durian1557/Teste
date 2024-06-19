@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Poesias de Felipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #cc0000;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #cc0000;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .main-content {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #dddddd;
+        }
+
+        .post {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #dddddd;
+        }
+
+        footer {
+            background-color: #cc0000;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Blog de Poesias de Felipe</h1>
+        <p>Um espaço para apaixonados de coração partido encontrarem conforto na poesia.</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#blog">Blog de Poesias</a>
+        <a href="#inscrever">Inscrever-se</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="sobre" class="main-content">
+            <h2>Sobre Mim</h2>
+            <p>Olá, meu nome é Felipe e sou um grande amante de poesia. Este blog foi criado com o objetivo de oferecer um espaço para apaixonados de coração partido expressarem suas emoções através de poesias. Seja bem-vindo!</p>
+        </section>
+
+        <section id="blog" class="main-content">
+            <h2>Blog de Poesias</h2>
+
+            <article class="post">
+                <h3>Título da Poesia 1</h3>
+                <p>Aqui vai o texto da poesia...</p>
+                <p>Autor: Nome do Autor</p>
+                <p><a href="#">Comentários (0)</a></p>
+            </article>
+
+            <article class="post">
+                <h3>Título da Poesia 2</h3>
+                <p>Aqui vai o texto da poesia...</p>
+                <p>Autor: Nome do Autor</p>
+                <p><a href="#">Comentários (0)</a></p>
+            </article>
+
+            <!-- Adicione mais artigos conforme necessário -->
+
+        </section>
+
+        <section id="inscrever" class="main-content">
+            <h2>Inscrever-se</h2>
+            <p>Inscreva-se para participar do nosso blog de poesias. Compartilhe suas próprias criações e explore as poesias de outros apaixonados.</p>
+            <form action="#" method="post">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <input type="submit" value="Inscrever">
+            </form>
+        </section>
+
+        <section id="contato" class="main-content">
+            <h2>Contato</h2>
+            <p>Entre em contato comigo para sugestões, dúvidas ou qualquer outra questão relacionada ao blog.</p>
+            <form action="#" method="post">
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Blog de Poesias de Felipe. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
